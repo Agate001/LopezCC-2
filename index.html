@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg bg-Dblue navhead">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav align-self-end">
+          <li class="nav-item align-self-end">
+            <a class="nav-link tc-white" href="#">Overview</a>
+          </li>
+          <li class="nav-item align-self-end">
+            <a class="nav-link tc-white" href="#">Rooms</a>
+          </li>
+          <li class="nav-item align-self-end">
+            <a class="nav-link tc-white" href="#">Packages</a>
+          <li class="nav-item align-self-end" style="margin-bottom: 7px;">
+            <img src="hotelMarkupAssets/Logo.png" alt="">
+          </li>
+          </li>
+          <li class="nav-item align-self-end">
+            <a class="nav-link tc-white" href="#">Amenites</a>
+          </li>
+          <li class="nav-item align-self-end">
+            <a class="nav-link tc-white" href="#">Contact</a>
+          <li class="nav-item align-self-end">
+            <a class="nav-link tc-white border" href="#">Reserve</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<div class="imghead">
+  <div class="card border-0 text-white rounded-0">
+    <img src="hotelMarkupAssets/header.jpg" class="card-img" alt="Luxury Resort">
+
+    <div class="card-img-overlay d-flex justify-content-center align-items-center">
+      <div
+        class="bg-DblueH text-center px-3 px-md-5 py-3 py-md-4 w-100 w-md-auto mx-2 mx-md-0"
+        style="max-width: 600px;"
+      >
+        <h2 class="fw-semibold mb-2 fs-4 fs-md-2">Run on the wheel of luxury</h2>
+        <p class="mb-0 fs-6">
+          Explore everything the beach has to offer in our relaxing resort.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="welcome"> <!--style="padding-right: 35px;" for mobile-->
+    <div class="card rounded-0 mb-3 align-items-center border-0">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="hotelMarkupAssets/hamsterhomejpg.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Welcome to a hamseter's paradise</h5>
+            <p class="card-text">Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed
+              for the small mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing
+              spa, and a pool with a beach side view.</p>
+            <p class="card-text">Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich
+              accommodations along with our unmatched luxury. Discover the satisfaction of indulging in our quality
+              rooms, and thank you for choosing La Petite Maison.</p>
+            <img src="hotelMarkupAssets/awardfinest.png" class="img-fluid recognition" alt="...">
+            <img src="hotelMarkupAssets/awardsatisfaction.png" class="img-fluid recognition" alt="...">
+            <img src="hotelMarkupAssets/awardgenuine.png" class="img-fluid recognition" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Our Rooms -->
+<div class="container-fluid roomsbg text-center text-white py-5"
+     style="background-image: url('hotelMarkupAssets/bg2.jpg'); background-position:center; background-size:cover;">
+
+  <!-- Title row -->
+  <div class="row mb-4">
+    <div class="col">
+      <h1>Our Rooms</h1>
+    </div>
+  </div>
+
+  <!-- Cards row -->
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Queen Room -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 rounded-0">
+          <img src="hotelMarkupAssets/room1.jpg" class="card-img-top rounded-0" alt="Queen Room">
+          <div class="card-body text-start">
+            <h5 class="card-title mb-1">Queen Room</h5>
+            <p class="fw-semibold mb-2">850 SQ FT room with city view</p>
+            <ul class="mb-3">
+              <li>One queen size bed</li>
+              <li>Seed Bar, fireplace and large balcony</li>
+              <li>Small kitchen with a refrigerator and stove</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Reserve</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- King Room -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 rounded-0">
+          <img src="hotelMarkupAssets/room3.jpg" class="card-img-top rounded-0" alt="King Room">
+          <div class="card-body text-start">
+            <h5 class="card-title mb-1">King Room</h5>
+            <p class="fw-semibold mb-2">950 SQ FT room with beach view</p>
+            <ul class="mb-3">
+              <li>One king size bed</li>
+              <li>Seed Bar, fireplace and large balcony</li>
+              <li>Small kitchen with a refrigerator and stove</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Reserve</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Beach Side Suite -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 rounded-0">
+          <img src="hotelMarkupAssets/room2.jpg" class="card-img-top rounded-0" alt="Beach Side Suite">
+          <div class="card-body text-start">
+            <h5 class="card-title mb-1">Beach Side Suite</h5>
+            <p class="fw-semibold mb-2">1500 SQ FT Suite with beach view</p>
+            <ul class="mb-3">
+              <li>One California king size bed</li>
+              <li>Second room with fireplace, hot tub, and balcony</li>
+              <li>Seed Bar and coffee station</li>
+              <li>Full kitchen with refrigerator, stove, and island</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Reserve</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+  <!--our packages-->
+
+
+<div class="container packages my-5">
+  <div class="row mb-4">
+    <div class="col text-center">
+      <h1>Packages</h1>
+    </div>
+  </div>
+
+  <!-- Beach Wedding Package -->
+  <div class="row align-items-center mb-4">
+    <div class="col-md-6">
+      <img src="hotelMarkupAssets/hamsterwedding.jpg" class="img-fluid" alt="Beach Wedding">
+    </div>
+    <div class="col-md-6">
+      <h5 class="fw-semibold">Beach Wedding Package</h5>
+      <p><a href="#" class="text-primary text-decoration-none">Starting US $1,500.00</a></p>
+      <p>
+        Feel the warmth of the beach as the flames in your hearts ignite during our romantic
+        beachside wedding. All wedding packages include catering, an open bar, and one tier
+        wedding cake (a 9” vanilla standard cake). A private dinner for your closest family
+        members and friends will be provided after the ceremony.
+      </p>
+    </div>
+  </div>
+
+  <!-- Full Bloom Package -->
+  <div class="row align-items-center mb-4 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="hotelMarkupAssets/hamsterspring.jpg" class="img-fluid" alt="Full Bloom">
+    </div>
+    <div class="col-md-6">
+      <h5 class="fw-semibold">Full Bloom Package</h5>
+      <p><a href="#" class="text-primary text-decoration-none">Starting US $1,000.00</a></p>
+      <p>
+        Enjoy the shade of our cherry trees as you join us during our springtime celebration.
+        Visit our orchards for cherry, strawberry, and apple picking that’s open all day.
+        Evenings conclude with vegetable-focused dinners and live music from local artists.
+      </p>
+    </div>
+  </div>
+
+  <!-- Cheese and Seed Tour Package -->
+  <div class="row align-items-center mb-4">
+    <div class="col-md-6">
+      <img src="hotelMarkupAssets/hamstercheese.jpg" class="img-fluid" alt="Cheese and Seed Tour">
+    </div>
+    <div class="col-md-6">
+      <h5 class="fw-semibold">Cheese and Seed Tour Package</h5>
+      <p><a href="#" class="text-primary text-decoration-none">Starting US $1,200.00</a></p>
+      <p>
+        Immerse yourself in the flavors of Cavia with our Cheese and Seed Tour. Consult with
+        connoisseurs from around the globe to taste the best nature has to offer, including
+        locally crafted cheeses and fresh seeds. End your day with a spa treatment and
+        cheese-inspired dinner.
+      </p>
+    </div>
+  </div>
+</div>
+
+  
+
+<div class="container-fluid amenities text-center text-white py-5" 
+     style="background-image:url('hotelMarkupAssets/bg.jpg'); background-position:center;">
+  
+  <div class="container">
+    <h1 class="fw-semibold mb-2">Amenities</h1>
+    <p class="mb-5">
+      Here at La Petite Maison, we invite you to enjoy our services in hopes that you have
+      the most relaxing stay we can provide.
+    </p>
+
+    <div class="row justify-content-center">
+      <div class="col-6 col-md-3 mb-4">
+        <img src="hotelMarkupAssets/24hour.png" class="img-fluid mb-2" style="width:70px;" alt="">
+        <p class="fw-semibold mb-0">24 Hour Room Service</p>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+        <img src="hotelMarkupAssets/breakfast.png" class="img-fluid mb-2" style="width:70px;" alt="">
+        <p class="fw-semibold mb-0">Complimentary Breakfast</p>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+        <img src="hotelMarkupAssets/valet.png" class="img-fluid mb-2" style="width:70px;" alt="">
+        <p class="fw-semibold mb-0">Valet Parking</p>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+        <img src="hotelMarkupAssets/pool.png" class="img-fluid mb-2" style="width:70px;" alt="">
+        <p class="fw-semibold mb-0">Beachside Pool</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="reserve bg-Dblue">
+  <div class="container text-center py-4">
+    <div class="row mb-3">
+      <div class="col">
+        <h1 class="tc-white mb-0">Reserve a Room</h1>
+      </div>
+    </div>
+
+    <div class="row g-2 align-items-end justify-content-center">
+      <div class="col inpubox">
+        <small class="tc-white d-block mb-1">Check-in</small>
+        <input type="text" class="form-control rounded-0">
+      </div>
+
+      <div class="col inpubox">
+        <small class="tc-white d-block mb-1">Check-out</small>
+        <input type="text" class="form-control rounded-0">
+      </div>
+
+      <div class="col inpubox">
+        <small class="tc-white d-block mb-1">Number of Guests</small>
+        <input type="text" class="form-control rounded-0">
+      </div>
+
+      <div class="col inpubox">
+        <small class="tc-white d-block mb-1">Room Type</small>
+        <input type="text" class="form-control rounded-0">
+      </div>
+
+      <div class="col-auto d-flex align-items-end">
+        <button class="btn btnbg btn-primary tc-white rounded-0" type="button">
+          Check Availability
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- IMAGE BELOW -->
+  <div class="row g-0">
+    <div class="col p-0">
+      <img class="imgcon" src="hotelMarkupAssets/hamsterreserve.jpg" alt="Hamster reserve">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid footer bg-Dblue text-center text-white py-4">
+  <img src="hotelMarkupAssets/logo.png" alt="La Petite Maison" class="mb-3" style="width:60px;">
+  <p class="fw-semibold mb-1">La Petite Maison</p>
+  <p class="small mb-1">123 Sunflower Seed Rd., Cavia, California 95205</p>
+  <p class="small mb-0">©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
