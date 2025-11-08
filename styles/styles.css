@@ -41,6 +41,8 @@ body {
 .amenities{
     grid-row: 6;
     grid-column: 1/15;
+    object-fit: contain;
+    background-repeat: no-repeat;
 }
 .amenities img { /*You can change the styles that are in a container */
     width: 70px;
@@ -56,9 +58,25 @@ body {
   height: 350px;     
   object-fit: cover;  
   display: block;
+  background-repeat: no-repeat;
 }
 .footer {
   grid-row: 10;           
   grid-column: 1 / 15;
   background-color: #000324; 
+}
+
+@media (max-width: 576px)
+{
+.welcomeimg{
+height: 300px;
+aspect-ratio: 1/1;
+background-repeat: no-repeat;
+}
+}
+@media (min-width: 576px)
+{
+    .sillyresponsivness{
+        padding: 30px;
+    }
 }
