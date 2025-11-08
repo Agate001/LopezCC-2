@@ -4,6 +4,6 @@
 
  //Hamster Hotel
 
- // I replicated a website design provided to me
+ // I made a website based on the design provided to me
 
 // Peer Review:
