@@ -12,7 +12,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-Dblue navhead">
+  <nav class="navbar navbar-expand-lg bg-Dblue navhead"> <!-- when the screen is larger than the pixels bootstrap set for lg than nav gets bigger-->
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
@@ -39,7 +39,7 @@
           </li>
           <li class="nav-item align-self-end">
             <a class="nav-link tc-white" href="#">Contact</a>
-          <li class="nav-item align-self-end">
+          <li class="nav-item align-self-end"> <!--this will make the item go to the right of the screen-->
             <a class="nav-link tc-white border" href="#">Reserve</a>
         </ul>
       </div>
@@ -47,11 +47,11 @@
   </nav>
   
 <div class="imghead">
-  <div class="card border-0 text-white rounded-0">
+  <div class="card border-0 text-white rounded-0"> <!--Rounded-0 removes the corner roundness from the card-->
     <img src="hotelMarkupAssets/header.jpg" class="card-img" alt="Luxury beach resort pool with palm trees">
     <div class="card-img-overlay d-flex justify-content-center align-items-center">
       <div class="bg-DblueH text-center sillyresponsivness" style="max-width: 600px;">
-        <h2 class="fw-semibold mb-2 fs-4 fs-md-2">Run on the wheel of luxury</h2>
+        <h2 class="fw-semibold mb-2 fs-4 fs-md-2">Run on the wheel of luxury</h2> <!--fs is font size and its getting smaller depending on the screen size fw is font weight which is for determing boldness in BS-->
         <p class="mb-0 fs-6">Explore everything the beach has to offer in our relaxing resort.</p>
       </div>
     </div>
@@ -59,8 +59,8 @@
 </div>
 
 <div class="welcome">
-  <div class="card rounded-0 mb-3 align-items-center border-0">
-    <div class="row g-0">
+  <div class="card rounded-0 mb-3 align-items-center border-0"> <!--m is for margin and b is for bottom and the number is the size-->
+    <div class="row g-0"> <!--g is for gutters but ive got zero idea why i did this-->
       <div class="col-md-4">
         <img src="hotelMarkupAssets/hamsterhomejpg.jpg" class="img-fluid welcomeimg" alt="Hamster resting in luxury bedding">
       </div>
@@ -80,19 +80,19 @@
 
 <!-- Our Rooms -->
 <div class="container-fluid roomsbg text-center text-white py-5"
-     style="background-image: url('hotelMarkupAssets/bg2.jpg'); background-position:center; background-size:cover;">
-  <div class="row mb-4">
+     style="background-image: url('hotelMarkupAssets/bg2.jpg'); background-position:center; background-size:cover;"> <!--centered image and have it fit the container without looking wonkey-->
+  <div class="row mb-4"> <!--more bs margins-->
     <div class="col"><h1>Our Rooms</h1></div>
   </div>
   <div class="container">
-    <div class="row g-4">
-      <div class="col-md-4">
+    <div class="row g-4"> <!--more gutters but the reason I used them here is for a cleaner less clumped look in mobile-->
+      <div class="col-md-4"> <!--whenever the md pixel size is met it forces each card to col 4 which then will force the card to move down in the same col-->
         <div class="card h-100 border-0 rounded-0">
           <img src="hotelMarkupAssets/room1.jpg" class="card-img-top rounded-0" alt="Queen Room interior">
-          <div class="card-body text-start">
+          <div class="card-body text-start"> <!--text will be to the left-->
             <h5 class="card-title mb-1">Queen Room</h5>
             <p class="fw-semibold mb-2">850 SQ FT room with city view</p>
-            <ul class="mb-3">
+            <ul class="mb-3"><!--bs margins you get the point carlos-->
               <li>One queen size bed</li>
               <li>Seed Bar, fireplace and large balcony</li>
               <li>Small kitchen with a refrigerator and stove</li>
@@ -101,7 +101,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4"><!--whenever the md pixel size is met it forces each card to col 4 which then will force the card to move down in the same col-->
         <div class="card h-100 border-0 rounded-0">
           <img src="hotelMarkupAssets/room3.jpg" class="card-img-top rounded-0" alt="King Room interior with balcony view">
           <div class="card-body text-start">
@@ -116,8 +116,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card h-100 border-0 rounded-0">
+      <div class="col-md-4"><!--whenever the md pixel size is met it forces each card to col 4 which then will force the card to move down in the same col -->
+        <div class="card h-100 border-0 rounded-0"> <!-- the concept took way too long for me to grasp-->
           <img src="hotelMarkupAssets/room2.jpg" class="card-img-top rounded-0" alt="Beach Side Suite with ocean view">
           <div class="card-body text-start">
             <h5 class="card-title mb-1">Beach Side Suite</h5>
@@ -137,7 +137,7 @@
 </div>
 
 <!-- Packages -->
-<div class="container packages my-5">
+<div class="container packages my-5"> <!--m is margin y is for both top and bottom-->
   <div class="row mb-4">
     <div class="col text-center"><h1>Packages</h1></div>
   </div>
@@ -153,11 +153,11 @@
     </div>
   </div>
 
-  <div class="row align-items-center mb-4 flex-md-row-reverse">
+  <div class="row align-items-center mb-4 flex-md-row-reverse"> <!--FLEX FROGGY FOR THE WIN here its basically just making the images go on top and text on bottom using flex-direction: row-reverse-->
     <div class="col-md-6">
       <img src="hotelMarkupAssets/hamsterspring.jpg" class="img-fluid" alt="Hamster enjoying springtime festival">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6"> <!--same concept as before its making the col go to the same section and forcing it to go below it-->
       <h5 class="fw-semibold">Full Bloom Package</h5>
       <p><a href="#" class="text-primary text-decoration-none">Starting US $1,000.00</a></p>
       <p>Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you to our orchards for cherry, strawberry, and apple picking that is open all day. We end each evening with fresh, vegetable centric dinners along with a live show from local musicians.</p>
@@ -165,10 +165,10 @@
   </div>
 
   <div class="row align-items-center mb-4">
-    <div class="col-md-6">
+    <div class="col-md-6"><!--same concept as before its making the col go to the same section and forcing it to go below it-->
       <img src="hotelMarkupAssets/hamstercheese.jpg" class="img-fluid" alt="Hamster sampling cheese on tour">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6"><!--same concept as before its making the col go to the same section and forcing it to go below it-->
       <h5 class="fw-semibold">Cheese and Seed Tour Package</h5>
       <p><a href="#" class="text-primary text-decoration-none">Starting US $1,200.00</a></p>
       <p>Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We consulted with connoisseurs from around the globe to bring you the best flavors that nature has to offer, and create our cheeses right here at our local creamery. Cheese and seeds are served all day and nightly spa treatment is provided after dinner.</p>
@@ -178,12 +178,12 @@
 
 <!-- Amenities -->
 <div class="container-fluid amenities text-center text-white py-5" 
-     style="background-image:url('hotelMarkupAssets/bg.jpg'); background-position:center;">
+     style="background-image:url('hotelMarkupAssets/bg.jpg'); background-position:center;"> <!--p is pading and y is for top and bottom 5 is size-->
   <div class="container">
     <h1 class="fw-semibold mb-2">Amenities</h1>
     <p class="mb-5">Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most relaxing stay we can provide.</p>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center"> <!--dont get confused here mb is for the margin and md is for screen size silly goose-->
       <div class="col-6 col-md-3 mb-4">
         <img src="hotelMarkupAssets/24hour.png" class="img-fluid mb-2" style="width:70px;" alt="24 hour service icon">
         <p class="fw-semibold mb-0">24 Hour Room Service</p>
@@ -206,7 +206,7 @@
 
 <!-- Reserve -->
 <div class="reserve bg-Dblue">
-  <div class="container text-center py-4">
+  <div class="container text-center py-4"> <!--py is padding top and bottom you get the point now Carlos-->
     <!-- Title -->
     <div class="row mb-3">
       <div class="col">
@@ -216,7 +216,7 @@
 
     <!-- Inputs -->
     <form>
-      <div class="row gy-3 justify-content-center align-items-end">
+      <div class="row gy-3 justify-content-center align-items-end"> <!--gy is for gutters and control vertical gutter width its like gap-->
         <div class="col-12 col-sm-2">
           <small class="tc-white d-block mb-1">Check-in</small>
           <input type="text" class="form-control rounded-0">
@@ -245,8 +245,8 @@
       </div>
     </form>
   </div>
-  <div class="row g-0">
-    <div class="col p-0">
+  <div class="row g-0"> <!--horizontal gutters-->
+    <div class="col p-0"> <!--padding-->
       <img class="imgcon w-100" src="hotelMarkupAssets/hamsterreserve.jpg" alt="Hamster waiting at reception">
     </div>
   </div>
